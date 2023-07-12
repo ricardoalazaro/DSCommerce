@@ -77,10 +77,6 @@ public class User {
         return password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
     public List<Order> getOrders() {
         return orders;
     }
